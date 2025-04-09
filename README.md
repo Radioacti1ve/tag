@@ -1,1 +1,1 @@
-https://github.com/Radioacti1ve/zakrivayuschiy-teg-f.git
+https://radioacti1ve.github.io/tag/
