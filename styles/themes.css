@@ -1,0 +1,61 @@
+/* В этом файле вы опишете значения переменных в разных цветовых схемах.
+Придерживайтесь такого именования классов:
+✦ theme-dark — класс тёмной темы
+✦ theme-light — класс светлой темы
+✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
+*/
+:root.theme-dark {
+  --title-weight: 785;
+  --content-weight: 465;
+  --background-color: #000;
+  --accent-color: #00cc14;
+  --gradient-horizontal: #000;
+  --gradient-vertical1: #007f0c;
+  --gradient-vertical2: #004306;
+  --shadow-color: #000;
+  --like-color: #00cc14;
+  --contour: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-weight: 785;
+    --content-weight: 465;
+    --background-color: #000;
+    --accent-color: #00cc14;
+    --gradient-horizontal: #000;
+    --gradient-vertical1: #007f0c;
+    --gradient-vertical2: #004306;
+    --shadow-color: #000;
+    --like-color: #00cc14;
+    --contour: #00cc14;
+  }
+}
+
+:root.theme-light {
+  --title-weight: 700;
+  --content-weight: 400;
+  --background-color: #fff;
+  --accent-color: #000;
+  --gradient-horizontal: #d3d3d3;
+  --gradient-vertical1: #e7e7e7;
+  --gradient-vertical2: #1a1a1a;
+  --shadow-color: #fff;
+  --like-color: #fff;
+  --contour: #000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-weight: 700;
+    --content-weight: 400;
+    --background-color: #fff;
+    --accent-color: #000;
+    --gradient-horizontal: #d3d3d3;
+    --gradient-vertical1: #e7e7e7;
+    --gradient-vertical2: #1a1a1a;
+    --shadow-color: #fff;
+    --like-color: #fff;
+    --contour: #000;
+  }
+}
